@@ -1,0 +1,60 @@
+2024-02-07 21:57:49 debug: Creation of dynamic property App\View\AppView::$ is deprecated
+Request URL: /
+Trace:
+/Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/View/View.php /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/View/View.php, line 1188
+Cake\View\View->_evaluate() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/View/View.php, line 1145
+Cake\View\View->_render() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Controller/Controller.php, line 705
+Cake\Controller\Controller->render() /Users/vinaysharma/Desktop/cakephppro/src/Controller/PagesController.php, line 65
+App\Controller\PagesController->display() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /Users/vinaysharma/Desktop/cakephppro/webroot/index.php, line 37
+[main]
+
+2024-02-07 22:10:01 debug: Creation of dynamic property App\View\AppView::$ is deprecated
+Request URL: /
+Trace:
+/Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/View/View.php /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/View/View.php, line 1188
+Cake\View\View->_evaluate() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/View/View.php, line 1145
+Cake\View\View->_render() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/View/View.php, line 785
+Cake\View\View->render() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Controller/Controller.php, line 705
+Cake\Controller\Controller->render() /Users/vinaysharma/Desktop/cakephppro/src/Controller/PagesController.php, line 65
+App\Controller\PagesController->display() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Controller/Controller.php, line 498
+Cake\Controller\Controller->invokeAction() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Controller\ControllerFactory->invoke() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 332
+Cake\Http\BaseApplication->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 169
+Cake\Http\Middleware\CsrfProtectionMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Middleware\BodyParserMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 118
+Cake\Routing\Middleware\RoutingMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 69
+Cake\Routing\Middleware\AssetMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 115
+Cake\Error\Middleware\ErrorHandlerMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+DebugKit\Middleware\DebugKitMiddleware->process() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner->handle() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Runner->run() /Users/vinaysharma/Desktop/cakephppro/vendor/cakephp/cakephp/src/Http/Server.php, line 103
+Cake\Http\Server->run() /Users/vinaysharma/Desktop/cakephppro/webroot/index.php, line 37
+[main]
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="5.13.1@086b94371304750d1c673315321a55d15fc59015">
+  <file src="src/Database/Log/DebugLog.php">
+    <InternalMethod>
+      <code>jsonSerialize</code>
+    </InternalMethod>
+  </file>
+  <file src="src/DebugInclude.php">
+    <PossiblyNullArrayOffset>
+      <code><![CDATA[$this->_composerPaths]]></code>
+      <code><![CDATA[$this->_pluginPaths]]></code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/DebugSql.php">
+    <InternalMethod>
+      <code>bindings</code>
+    </InternalMethod>
+  </file>
+  <file src="src/DebugTimer.php">
+    <PossiblyNullArrayOffset>
+      <code>self::$_timers</code>
+    </PossiblyNullArrayOffset>
+  </file>
+  <file src="src/Mailer/MailPreview.php">
+    <PossiblyFalseOperand>
+      <code>$pos</code>
+    </PossiblyFalseOperand>
+  </file>
+  <file src="src/Mailer/Transport/DebugKitTransport.php">
+    <InvalidReturnStatement>
+      <code>$result</code>
+    </InvalidReturnStatement>
+    <MoreSpecificReturnType>
+      <code>array</code>
+    </MoreSpecificReturnType>
+    <PropertyTypeCoercion>
+      <code>new $className($config)</code>
+    </PropertyTypeCoercion>
+  </file>
+  <file src="src/Panel/PanelRegistry.php">
+    <LessSpecificImplementedReturnType>
+      <code>string|null</code>
+    </LessSpecificImplementedReturnType>
+    <UnsafeInstantiation>
+      <code>new $class($this, $config)</code>
+    </UnsafeInstantiation>
+  </file>
+  <file src="src/Panel/SqlLogPanel.php">
+    <UndefinedInterfaceMethod>
+      <code>genericInstances</code>
+    </UndefinedInterfaceMethod>
+  </file>
+  <file src="src/View/Helper/ToolbarHelper.php">
+    <InternalClass>
+      <code>new HtmlFormatter()</code>
+      <code>new HtmlFormatter()</code>
+    </InternalClass>
+    <InternalMethod>
+      <code>dump</code>
+      <code>dump</code>
+      <code>new HtmlFormatter()</code>
+      <code>new HtmlFormatter()</code>
+    </InternalMethod>
+  </file>
+</files>
